@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JsStore.Contract\JsStore.Contract.csproj" />
+    <ProjectReference Include="..\JsStore.DataAccess\JsStore.DataAccess.csproj" />
+    <ProjectReference Include="..\JsStore.Utility\JsStore.Utility.csproj" />
+    <ProjectReference Include="..\JsStore.ViewModel\JsStore.Model.csproj" />
+  </ItemGroup>
+
+</Project>
